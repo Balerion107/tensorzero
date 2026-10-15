@@ -2,8 +2,6 @@ name: Cancel merge queue workflows on job failure
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *" # Runs every 5 minutes
 
 permissions:
   actions: write
